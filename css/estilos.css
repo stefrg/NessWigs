@@ -1,0 +1,60 @@
+/* imports fuentes online */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+/* Selector universal */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estildo del header*/
+.colorNav {
+    background-color: bisque;
+}
+
+/*Estilado del main*/
+.col-img {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../assets/img/wigs.jpg");
+}
+.alto {
+    height: 70vh;
+}
+.columnaDer {
+    height: 100%;
+}
+.columnaIzq {
+    height: 100%;
+}
+.subtitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Estilado de productos nuevos */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  .bgBotonCafe {
+    background-color: rgb(46, 25, 6);
+  }
+
+/* Estilado del footer */
+.bgFooter {
+    background-color: bisque;
+}
+.linkNavRedes {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
